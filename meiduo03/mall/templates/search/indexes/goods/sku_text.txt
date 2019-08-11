@@ -1,0 +1,6 @@
+# 让elasticsearch 搜索的模板创建好了
+# 我们只需要让  elasticsearch 分词指定字段就可以了
+# object 可以理解为 SKU的实例对象
+{{ object.id }}
+{{ object.name }}
+{{ object.caption }}
